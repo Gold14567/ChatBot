@@ -125,7 +125,7 @@ ele();
 
 /* istanbul ignore next */
 if (!fs.existsSync('./test.txt')) {
-    if (config.Bot.token != 'YOUR-BOT-TOKEN-HERE') {
+    if (config.Bot.token != 'ODA4NzE2NTAwNTcxNjUyMDk2.YCKl7g.7-yxpk5lvGJtYZYQnFO07AzKR5c') {
         client.login(config.Bot.token).catch(error => { main.error(`Error During Login. ${error}`); process.exit(1); });
     } else {
         main.error('No token in config.toml. Aborting...');
